@@ -10,9 +10,9 @@ namespace DataAccess.Concrete
     {
         List<Car> _Cars;
         _Cars = new List<Car>
-            new Car {id=1, BrandId=1, ColorId=1, ModelYear=2018 ,DailyPrice=740000, Description="AUDİ A6"},
-            new Car {id=2, BrandId=2, ColorId=2, ModelYear=2018 ,DailyPrice=240000, Description="Skoda Superb"},
-            new Car {id=3, BrandId=3, ColorId=3, ModelYear=2020 ,DailyPrice=142000, Description="Fiat Egea"}
+            new Car {id=1, BrandId=1, ColorId=1, ModelYear=2018 ,DailyPrice=740, Description="AUDİ A6"},
+            new Car {id=2, BrandId=2, ColorId=2, ModelYear=2018 ,DailyPrice=240, Description="Skoda Superb"},
+            new Car {id=3, BrandId=3, ColorId=3, ModelYear=2020 ,DailyPrice=142, Description="Fiat Egea"}
             public List<Car> GetById(int id)
         {
             return _Cars.Where(p => p.id == car.id).ToList;
